@@ -19,9 +19,9 @@ function generateNumber () {
   // process
   if (numberType == true) {
     // output
-    document.getElementById('number-output').innerHTML = 'The random number is: ' + randomNumber
+    document.getElementById('result').innerHTML = 'The random number is: ' + randomNumber
   } else {
     // output
-    document.getElementById('number-output').innerHTML = 'The random number is: ' + (-1 * randomNumber)
+    document.getElementById('result').innerHTML = 'The random number is: ' + (-1 * randomNumber)
   }
 }
